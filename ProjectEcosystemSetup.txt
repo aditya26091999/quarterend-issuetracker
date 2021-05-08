@@ -1,0 +1,16 @@
+1. Create GitHub Account
+2. Create a repository
+3. Install Git on system
+4. Install TortoiseGit on system
+5. Use PuTTYgen tool to generate SSH public and private RSA keys of 4096 size. Copy the public key, and save private key file .ppk somewhere safe
+6. Clone the repo using SSH from Github using TortoiseGit and supply the private key file location.
+7. Make the repository folder structure Documentation, SourceCode with each having README.md files
+8. Set root-level repository README.md file.
+9. Have a ProjectEcosystemSetup.txt file to track project setups, connections with collaboration tools.
+10. Install python on system.
+11. Create a python venv using "python -m venv venv" on individual python project level folder.
+12. Activate the python venv by running cmd "venv\Scripts\activate"
+13. "pip list" to check current python project dependencies.
+14. "python -m pip install --upgrade pip" to upgrade pip version for python project venv
+15. "python install django" to install python project dependency
+16. "pip freeze > requirements.txt" to maintain dependency file. Always run this after installing any new dependency using pip.
