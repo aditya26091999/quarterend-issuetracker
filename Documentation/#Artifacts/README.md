@@ -1,1 +1,1 @@
-Welcome to the Artifacts Folder
+Put Videos/Screenshots/Digrams here!

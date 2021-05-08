@@ -1,1 +1,1 @@
-This folder has gathered requirement details for the project.
+Put UML/Architecture and all SEPM related diagrams here!

@@ -1,0 +1,1 @@
+This folder will have any automation scripts for azure, docker etc.
