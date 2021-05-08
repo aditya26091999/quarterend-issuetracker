@@ -1,0 +1,1 @@
+This section will have SQL queries required for our web-app.
