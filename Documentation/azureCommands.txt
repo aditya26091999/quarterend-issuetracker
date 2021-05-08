@@ -1,0 +1,6 @@
+az login
+az group list
+az resource list --resource-group cc-miniproject-21-qeitdw --out table --query "[].{name:name, Type:type}"
+az appservice plan create --resource-group cc-miniproject-21-qeitdw --name CC-AppServicePlan sku S1
+az webapp create --resource-group cc-miniproject-21-qeitdw --plan CC-AppServicePlan --name QuarterEndIssueTracker
+
