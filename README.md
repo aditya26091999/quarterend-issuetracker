@@ -16,8 +16,8 @@ Scope:
 
 Techstack:
 
-Front End : HTML, CSS, Python - Django
-API : Django created services
-Backend : MySQL
-Deployment : Docker, Azure Container Instances, Azure App Service
-Collaboration : Git, GitHub, TortoiseGit, PyCharm, MS Teams, GitHub Actions.
+Front End : HTML, CSS, Python - Django <br>
+API : Django created services <br>
+Backend : MySQL <br>
+Deployment : Docker, Azure Container Instances, Azure App Service <br>
+Collaboration : Git, GitHub, TortoiseGit, PyCharm, MS Teams, GitHub Actions. <br>
