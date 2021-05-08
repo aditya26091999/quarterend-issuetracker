@@ -16,8 +16,8 @@ Scope:
 
 Techstack:
 
-Collaboration
-1. Microsoft Teams
-2. JIRA
-3. Bitbucket
-4. MS Teams Bitbucket Connector
+Front End : HTML, CSS, Python - Django
+API : Django created services
+Backend : MySQL
+Deployment : Docker, Azure Container Instances, Azure App Service
+Collaboration : Git, GitHub, TortoiseGit, PyCharm, MS Teams, GitHub Actions.
