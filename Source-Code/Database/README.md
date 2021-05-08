@@ -1,0 +1,1 @@
+This folder will house SQL files. Those files will have DDL, DML queries to be used by our web-app.
