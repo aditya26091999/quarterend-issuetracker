@@ -1,1 +1,0 @@
-This is client-company registeration web-app to be hosted on Heroku

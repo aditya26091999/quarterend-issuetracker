@@ -1,0 +1,1 @@
+Here lies all the source-code for Complete Docker App with all dependencies installed
