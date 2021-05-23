@@ -26,3 +26,7 @@ issueTrackerTableCreation_sql = """CREATE TABLE {}.issuetracker (
     ON UPDATE CASCADE);"""
 
 adminLogin_sql = "SELECT company.company_id,company.company_name,company.company_address, company.company_admin_email FROM globalcompany_schema.company WHERE company.company_admin_email=%s AND company.company_admin_password=%s"
+
+lookupCompanyUIDForUserRegisteration_sql = "SELECT company_id from globalcompany_schema.company where company_name=%s"
+userRegisteration_sql = "INSERT INTO {}.user(user_id,user_name,user_email,user_password) VALUES (%s,%s,%s,%s)"
+userLogin_sql = "SELECT user_name FROM {}.user WHERE user_email=%s AND user_password=%s"
