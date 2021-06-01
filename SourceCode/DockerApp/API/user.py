@@ -65,4 +65,4 @@ def userLogin():
         print(e)
         return {"endpoint": endpoint, 'status': userLoginStatus,'message' : 'Check login credentials, try again!'}
 
-    return {"endpoint": endpoint, 'status': userLoginStatus,'message' : 'Login successful!','userName':user[0]}
+    return {"endpoint": endpoint, 'status': userLoginStatus,'message' : 'Login successful!','userName':user[0],'companyUID':companyUID[0]}
